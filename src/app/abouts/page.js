@@ -1,9 +1,13 @@
-import React from 'react'
+"use client"
+import { useTareas } from "@/context/TasksContext"
 
-function page() {
+function abouts() {
+
+  const values = useTareas();
+  console.log(values.tareas)
   return (
-    <div>about Page</div>
+    <div>abouts</div>
   )
 }
 
-export default page
+export default abouts
