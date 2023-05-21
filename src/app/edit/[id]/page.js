@@ -1,9 +1,10 @@
 
+
 function page({params}) {
   return (
     <div>
 
-        editando{params.id}
+        editando {params.id}
 
     </div>
   )
